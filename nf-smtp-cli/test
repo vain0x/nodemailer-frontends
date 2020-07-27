@@ -1,0 +1,12 @@
+#!/bin/sh
+# 本番モードで自動テストを実行する。
+
+set -eu
+
+./setup
+
+echo 'テストケースがありません'
+exit 1
+
+# "$(npm bin)/tsc"
+# NODE_ENV=production "$(npm bin)/mocha" target/tests.js

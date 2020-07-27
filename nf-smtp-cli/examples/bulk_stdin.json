@@ -1,0 +1,2 @@
+{"id": 1, "message": {"from": "sender@example.com", "to": "receiver1@example.com", "subject": "Message title 1", "text": "The message text 1."}}
+{"id": 2, "message": {"from": "sender@example.com", "to": "receiver2@example.com", "subject": "Message title 2", "text": "The message text 2."}}

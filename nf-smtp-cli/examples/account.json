@@ -1,0 +1,12 @@
+{
+    "__SEE_ALSO__": "https://nodemailer.com/smtp/",
+    "host": "smtp.example.com",
+    "port": 587,
+    "auth": {
+        "user": "username",
+        "pass": "password"
+    },
+    "tls": {
+        "rejectUnauthorized": false
+    }
+}

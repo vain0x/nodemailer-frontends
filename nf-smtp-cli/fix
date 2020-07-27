@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -eu
+
+./setup
+
+"$(npm bin)/eslint" --fix 'src/**' --ext '.ts,.tsx,.js'

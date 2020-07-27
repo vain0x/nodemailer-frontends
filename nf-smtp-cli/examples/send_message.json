@@ -1,0 +1,8 @@
+{
+    "__SEE_ALSO__": "https://nodemailer.com/message/",
+    "from": "sender@example.com",
+    "to": "receiver@example.com",
+    "subject": "Message title",
+    "text": "Plaintext version of the message",
+    "html": "<p>HTML version of the message</p>"
+}

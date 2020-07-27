@@ -1,0 +1,9 @@
+#!/bin/sh
+# 本番モードでビルドする。
+
+set -eu
+
+./setup
+
+# TypeScript から JavaScript へのコンパイル
+NODE_ENV=production "$(npm bin)/tsc"

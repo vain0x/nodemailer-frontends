@@ -1,0 +1,8 @@
+#!/bin/sh
+# 本番モードで実行する。
+
+set -eu
+
+# ./setup
+
+NODE_ENV=production node target/cli.js "$@"

@@ -1,0 +1,7 @@
+#!/bin/sh
+# 環境の構築など
+
+set -eu
+
+# node_modules ディレクトリがなかったら、依存パッケージのインストールを行う。
+test -d node_modules || npm ci
